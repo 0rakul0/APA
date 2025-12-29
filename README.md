@@ -44,17 +44,13 @@ Aplicações clássicas incluem:
 - Relaxações globais sucessivas
 - Suporta pesos negativos
 - Complexidade:  
-  \[
-  O(|V| \cdot |E|)
-  \]
+  O(|V| × |E|)
 
 ### 2. Dijkstra
 - Estratégia gulosa
 - Uso de fila de prioridade (ordenção global)
 - Complexidade:  
-  \[
-  O(|E| + |V|\log |V|)
-  \]
+  𝑂(|𝐸| + |𝑉| log |𝑉|)
 
 ### 3. Simulador por Propagação de Fronteiras
 - Não utiliza fila de prioridade
